@@ -50,7 +50,7 @@ sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 ```
 To run only the Mask RCNN without ROS, comment out the ROS related imports in [object_localizer.ipynb]. 
 
-# Training on MS COCO
+# Training 
 Pre-trained weights for MS COCO has been provided to make it easier to start. 
 You can use those weights as a starting point to train your own variation of the network. 
 Training and evaluation code is in `samples/project/project.py`. 
